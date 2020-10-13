@@ -8,12 +8,11 @@
   - A dataset generated from [CARLA Simulator](http://carla.org/)
   - Objects: Cars
   - [Reference](https://arxiv.org/pdf/2008.08826.pdf)
-- [MOT Challenge](https://motchallenge.net)
 
 # MOT Benchmark
 - [UA-DETRAC Benchmark Suite](http://detrac-db.rit.albany.edu)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)
-
+- [MOT Challenge Benchmark](https://motchallenge.net)
 
 # Metrics for MOT
 - **Multiple Object Tracking Accuracy (MOTA):** MOTA is a commonly used evaluation metric for multiple object tracking. It penalizes the sum of missed boxes, false positive boxes, and identity switches divided by the number of ground truth boxes. We report percentage MOTA for evaluation.
