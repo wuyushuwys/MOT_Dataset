@@ -17,16 +17,25 @@
 
 # Metrics for MOT
 - **Multiple Object Tracking Accuracy (MOTA):** MOTA is a commonly used evaluation metric for multiple object tracking. It penalizes the sum of missed boxes, false positive boxes, and identity switches divided by the number of ground truth boxes. We report percentage MOTA for evaluation.
+
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?MOTA=1-\frac{Misses+FP+Switches}{GT}">
 </p>
+
 - **Multiple Object Tracking Precision (MOTP):** the sum of the overlaps of matched boxes divided by the total number of matches. It is an indicator for localization precision. We report percentage MOTP for evaluation.
+
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?MOTP=\frac{\sum_i{Overlap_i}}{Matches}">
 </p>
+
 - **Number of missed boxes (Misses):** The total number of missed ground-truth boxes.
-- Number of false positives (FP): The total number of predicted boxes that are not matched with any ground-truth box.
+
+- **Number of false positives (FP):** The total number of predicted boxes that are not matched with any ground-truth box.
+
 - **Identity switch (Switch):** An identity switch is counted when a ground-truth object is matched with a track that is different from the last known assigned track.
+
 - **Number of mostly tracked objects (Mostly Tracked):** The number of tracks that has at least 80% of its lifespan tracked.
+
 - **Number of mostly lost objects (Mostly Lost):** The number of tracks that has less than 20% of its lifespan tracked.
+
 - **Number of partially tracked objects (Partially Tracked):** The number of tracks that has at least 20% and less than 80% of its lifespan tracked.
