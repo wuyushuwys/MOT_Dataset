@@ -9,7 +9,20 @@
   - Objects: Cars
   - [Reference](https://arxiv.org/pdf/2008.08826.pdf)
 
+# MOT Datasets
+
+- [PathTrack](http://people.ee.ethz.ch/~daid/pathtrack/)
+  - More than 15,000 person trajectories in 720 sequences
+  - [Reference](http://people.ee.ethz.ch/~daid/publications/PathTrack.pdf)
+- [nuScenes](https://www.nuscenes.org/nuimages)
+  - A large-scale dataset for autonomous driving.
+  - The full dataset includes approximately 1.4M camera images, 390k LIDAR sweeps, 1.4M RADAR sweeps and 1.4M object bounding boxes in 40k keyframes
+  - [Reference](https://arxiv.org/pdf/1903.11027.pdf)
+  - [Devkit Github](https://github.com/nutonomy/nuscenes-devkit)
+  - You will need an account to access the dataset.
+
 # MOT Benchmark
+
 - [UA-DETRAC Benchmark Suite](http://detrac-db.rit.albany.edu)
 - [KITTI Vision Benchmark Suite](http://www.cvlibs.net/datasets/kitti/eval_tracking.php)
 - [MOT Challenge Benchmark](https://motchallenge.net)
@@ -38,3 +51,11 @@
 - **Number of mostly lost objects (Mostly Lost):** The number of tracks that has less than 20% of its lifespan tracked.
 
 - **Number of partially tracked objects (Partially Tracked):** The number of tracks that has at least 20% and less than 80% of its lifespan tracked.
+
+
+
+# Useful Resources
+
+- [deepMOT](https://github.com/yihongXU/deepMOT)
+- [MOTS](https://www.vision.rwth-aachen.de/page/mots)
+
